@@ -7,6 +7,8 @@ I trained off of an existing dataset of 60,000 images of watermarked and their n
 In the end, I had lots of compression artifacts, but the image was roughly recreated. As a result of it being blurry, I guess the watermark was slightly less noticeable? 
 I ended up basically creating a not-great compresssion algorithm. If I were to do this again, I would likely try to recreate the U-net architecture, which I think would improve model performance drastically.
 
+You can see one example result in > 'before_after_example.png'
+
 If you run "Cole_westerveld-Running_The_Model.ipynb" and you uncomment the first bit of code to download the dataset it will randomly pick a picture to run the model on
 It takes ~5mins to download dataset.
 Also may need img.show() to dfisplay images, but that doesnt work on google colab so just keep as display(img) if using on colab
