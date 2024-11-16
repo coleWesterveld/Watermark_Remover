@@ -1,4 +1,4 @@
-My first major machine learnign project, after some other small projects like a number recognizer, cat/dog classifier, etc. 
+My first major machine learning project, after some other small projects like a number recognizer, cat/dog classifier, etc. 
 In this project I designed a custom model in an attempt to remove watermarks from images, and the results were so-so. 
 There already exist versions of this that do much better, but I was looking to do some sort of image to image machine learning project and the idea came to mind. 
 The model follows a variational autoencoder architecture, which I did with PyTorch.
